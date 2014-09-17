@@ -165,13 +165,31 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Services */
 
 .services {
     padding: 50px 0;
+}
+
+.me {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .service-item {
@@ -223,7 +241,7 @@ hr.small {
 /* Map */
 
 .map {
-    height: 300px;
+    height: 320px;
 }
 
 @media(max-width:768px) {
